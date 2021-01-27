@@ -1,0 +1,292 @@
+body{
+	background-color: #FFDAB9;
+	margin:auto;
+}
+
+.topNav{
+	background-color: #1d3c45; 
+	height: 60px;
+	margin-bottom: 50px;
+	/*overflow: hidden;*/
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+.topNav a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	font-size: 16px;
+}
+
+.dropdown{
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: #d2601a;
+	margin-top: 24px;
+	width: 160px;
+	
+}
+
+.topNav a:hover, .dropdown:hover .dropbtn{
+	background-color: #d2601a;
+	color: #1d3c45;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	min-width: 200px;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+	float: none;
+	background-color: white;
+	color: #1d3c45;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.dropdown-content a:hover{
+	background-color: #1d3c45;
+	color: #d2601a;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.navBut{
+	display: inline;
+	margin-left: 8ex;
+}
+.navBut button:hover{
+	background-color: #d2601a;
+	color: #1d3c45;
+}
+
+.label{
+	color: #d2601a;
+	font-size: 20px;
+	display: inline;
+	margin-right: 50ex;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	max-width: 100%;
+	
+}
+
+.topNav button{
+	background-color: white;
+	color: #d2601a;
+	margin-top: 24px;
+	border: none;
+	height: 27px;
+	margin-right: 4ex;
+	width: 80px;
+	border-radius: 3px;
+	font-size: 15px;
+	
+	
+}
+
+.sidenav{
+	height: 420px;
+	width: 290px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #1d3c45;
+	overflow-x: hidden;
+	padding-top: 20px;
+	margin-top: 61px;
+	margin-left: 1px;
+	text-align: center;
+}
+
+.sidenav h3, h4{
+	
+	color: #d2601a; 
+}
+
+.sidenav button{
+	background-color: #d2601a;
+	color: #1d3c45;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	width: 70px;
+	font-size: 15px;
+}
+#New{
+	width: 150px;
+	/*height: 40px;*/
+
+}
+
+#New a{
+	text-decoration:none;
+	color: #1d3c45;
+}
+
+.main{
+	margin-left: 290px;
+	padding: 0px 10px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.Item{
+	background-color: white;
+	width: 200px;
+	height: 300px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 5px;
+}
+
+.Item img{
+	height: 150px;
+	width: 150px;
+}
+
+.Item button{
+	background-color: #1d3c45;
+	color: #d2601a;
+	border: none;
+	height: 25px;
+	width: 120px;
+}
+
+.Item button:hover{
+	background-color: #d2601a;
+	color: #1d3c45;
+}
+
+.gridContainer{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	/*justify-content: center;*/
+	align-content: space-around;
+	grid-gap: 20px;
+	padding-left: 20px; 
+}
+
+.MenuSwitch{
+	display: inline-block;
+	/*background-color: red;*/
+	text-align: center;
+	padding: 5px;
+	margin: auto;
+	width: 250px;
+	height: 23px;
+}
+
+.MenuSwitch button{
+	background-color:  #1d3c45;
+	color: #d2601a;
+	border: none;
+	height: 23px;
+}
+
+.MenuSwitch button:hover{
+	background-color: #d2601a;
+	color: #1d3c45;
+}
+
+#juice{
+	display: none;
+}
+#salad{
+	display: none;
+}
+#smoothie{
+	display: block;
+}
+
+#forAdmin{
+	height: 250px;
+}
+fieldset{
+	border: none;
+}
+
+#Basket{
+	display: block;
+}
+
+#add, #remove{
+	width: 10px;
+	border-radius: 50%;
+	height: 15px;
+	background-color: #d2601a;
+	text-decoration: none;
+	color: #1d3c45; 
+	padding: 5px;
+	margin-top: 3px;
+	display: inline-block;
+	text-align: center;
+}
+
+#empty{
+	background-color: #d2601a;
+	text-decoration: none;
+	display: inline-block;
+	color: #1d3c45;
+	border: none;
+	border-radius: 5px;
+	height: 25px;
+	width: 120px;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+/*#remove{
+	width: 10px;
+}*/
+.basketItem{
+	background-color: #FFDAB9;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	padding-left: 0;
+}
+
+#total{
+	color: #d2601a;
+	font-weight: 20px;
+	font-size: 20px;
+	font-style: bold;
+}
+
+table, th, td{
+	border: solid 2px;
+	text-align: center;
+	padding: 5px;
+}
+
+td button{
+	background-color:  #1d3c45;
+	color: #d2601a;
+	border: none;
+	height: 23px;
+}
+
+table{
+	border-collapse: collapse;
+}

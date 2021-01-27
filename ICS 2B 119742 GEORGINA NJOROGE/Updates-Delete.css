@@ -1,0 +1,238 @@
+body{
+	background-color: #FFDAB9;
+	margin:auto;
+}
+
+.topNav{
+	background-color: #1d3c45; 
+	height: 60px;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.topNav a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	font-size: 16px;
+}
+
+.dropdown{
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: #d2601a;
+	margin-top: 24px;
+	width: 160px;
+	
+}
+
+.topNav a:hover, .dropdown:hover .dropbtn{
+	background-color: #d2601a;
+	color: #1d3c45;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	min-width: 200px;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+	float: none;
+	background-color: white;
+	color: #1d3c45;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 17px;
+}
+.dropdown-content a:hover{
+	background-color: #1d3c45;
+	color: #d2601a;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.navBut{
+	display: inline;
+	margin-left: 8ex;
+}
+.navBut button:hover{
+	background-color: #d2601a;
+	color: #1d3c45;
+}
+
+.label{
+	color: #d2601a;
+	font-size: 20px;
+	display: inline;
+	margin-right: 50ex;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	max-width: 100%;
+	
+}
+
+/*#SignOut{
+	background-color: #d2601a;
+	color: #1d3c45;
+	border-radius: 3px;
+
+}*/
+
+.topNav button{
+	background-color: white;
+	color: #d2601a;
+	margin-top: 24px;
+	border: none;
+	height: 27px;
+	margin-right: 4ex;
+	width: 80px;
+	border-radius: 3px;
+	font-size: 15px;
+	
+	
+}
+
+table, th, td{
+	border: solid 2px;
+	text-align: center;
+	padding: 5px;
+}
+
+td button{
+	background-color:  #1d3c45;
+	color: #d2601a;
+	border: none;
+	height: 23px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.Cust{
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	/*align-self: center;*/
+	align-items: center;
+	background-color: #1d3c45;
+	width: 25%;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+
+}
+
+fieldset{
+	border:none;
+}
+
+.Cust label, h2{
+	color: #d2601a;
+}
+
+.Cust input[type=text], input[type=email], input[type=password], input[type=number], select{
+	background-color: #fff1e1;
+	border-radius: 5px;
+	width: 80%;
+	padding: 8px;
+	border: 1px solid #fff1e1;
+	/*color: #1d3c45;*/
+	margin: 0 auto;
+
+}
+
+#delBut, #checkOut{
+	background-color: #d2601a;
+	color: #1d3c45;
+	border: none;
+	border-radius: 9px;
+	font-size: 16px;
+	padding: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family: serif;
+}
+
+
+img{
+	height: 75px;
+	width: 75px;
+}
+
+.basketItem{
+	background-color: #FFDAB9;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	padding-left: 0;
+}
+
+.basketItem label{
+
+	color: #1d3c45;
+
+}
+
+.Cust h3{
+	color: #d2601a; 
+}
+
+#total{
+	color: #d2601a;
+	font-weight: 20px;
+	font-size: 20px;
+	font-style: bold;
+}
+
+.main{
+	margin-left: 290px;
+	padding: 0px 10px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.sidenav{
+	height: 420px;
+	width: 290px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #1d3c45;
+	overflow-x: hidden;
+	padding-top: 20px;
+	margin-top: 61px;
+	margin-left: 1px;
+	text-align: center;
+}
+
+.sidenav h3, h4{
+	
+	color: #d2601a; 
+}
+
+.basketItem{
+	background-color: #FFDAB9;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	padding-left: 0;
+}
+
